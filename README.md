@@ -16,4 +16,33 @@ Not having found an existing plugin, banner-maven-plugin was born.
 
 ## Usage
 
-TODO
+Issuing the command
+
+    $ mvn com.geertvanderploeg.maven:banner-maven-plugin:1.0.0-SNAPSHOT:banner
+
+yields:
+
+    [INFO] Scanning for projects...
+    [INFO]
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Building Banner Maven Mojo 1.0.0-SNAPSHOT
+    [INFO] ------------------------------------------------------------------------
+    [INFO]
+    [INFO] --- banner-maven-plugin:1.0.0-SNAPSHOT:banner (default-cli) @ banner-maven-plugin ---
+    [INFO]
+      ____                                      _             _
+     |  _ \                                    | |           (_)
+     | |_) | __ _ _ __  _ __   ___ _ __   _ __ | |_   _  __ _ _ _ __
+     |  _ < / _` | '_ \| '_ \ / _ \ '__| | '_ \| | | | |/ _` | | '_ \
+     | |_) | (_| | | | | | | |  __/ |    | |_) | | |_| | (_| | | | | |
+     |____/ \__,_|_| |_|_| |_|\___|_|    | .__/|_|\__,_|\__, |_|_| |_|
+                                         | |             __/ |
+                                         |_|            |___/
+
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time: 0.545s
+    [INFO] Finished at: Sat Aug 18 23:29:06 CEST 2012
+    [INFO] Final Memory: 4M/109M
+    [INFO] ------------------------------------------------------------------------
